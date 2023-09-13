@@ -6,7 +6,7 @@ const app = express()
 const port = 4500
 
 
-app.get("/user", (req, res) => {
+app.get("/", (req, res) => {
     res.send('HELLO WORLD RENDER !')
     root = __dirname
 })
